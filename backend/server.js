@@ -7,8 +7,8 @@ app.get('/', (req, res) => {
   res.send("Nada nesse endpoint. Tente /turnos!")
 })
 
-app.get('/turnos', function (req, res) {
-    console.log("Turnos foram pedidos");
+app.get('/turnosProfessores', function (req, res) {
+    console.log("TurnosProfs foram pedidos");
     res.header("Access-Control-Allow-Origin", "*");
 
     fs.readFile(__dirname + "/db/turnosProfessores.json", function (err, data) {
@@ -18,7 +18,19 @@ app.get('/turnos', function (req, res) {
     });
     
  });
+ app.get('/turnosAlunos', function (req, res) {
+  console.log("TurnosAlunos foram pedidos");
+  res.header("Access-Control-Allow-Origin", "*");
+
+  fs.readFile(__dirname + "/db/turnosAlunos.json", function (err, data) {
+    let turnosJSON = JSON.parse(data);
+    console.log(turnosJSON)
+     res.send(turnosJSON);
+  });
+  
+});
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
+

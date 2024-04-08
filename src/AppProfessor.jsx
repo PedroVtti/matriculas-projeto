@@ -16,7 +16,7 @@ const AppProfessor = () => {
       <button onClick={() => handleOptionChange(3)}>Prof. Claudio</button>
 
       <table border="1">
-        <tbody><TableData selectedOption = {selectedOption}  > </TableData></tbody>
+        <tbody><TableData selectedOption = {selectedOption} endpoint = '/turnosProfessores' > </TableData></tbody>
       </table>
     </div>
   );

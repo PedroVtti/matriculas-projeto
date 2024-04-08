@@ -1,38 +1,11 @@
 import React, { useState } from "react";
+import TableData from "./TableData.jsx";
 
 const AppAluno = () => {
   const [selectedOption, setSelectedOption] = useState(1);
 
   const handleOptionChange = (option) => {
     setSelectedOption(option);
-  };
-
-  const renderTableData = () => {
-    const dataOptions = {
-      1: [
-        ["Turno","Segunda-feira","Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira"],
-        ["Manhã", "C. Japonesa", "Princípios da Culinária","","",""],
-        ["Tarde", "", "","","",""],
-      ],
-      2: [
-        ["Turno","Segunda-feira","Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira"],
-        ["Manhã", "C. Japonesa", "Churrasco I","Princípios da Culinária","",""],
-        ["Tarde", "Princípios da Culinária", "","","",""],
-      ],
-      3: [
-        ["Turno","Segunda-feira","Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira"],
-        ["Manhã", "C. Japonesa", "Churrasco I","Princípios da Culinária","",""],
-        ["Tarde", "Princípios da Culinária", "Churrasco I","C. Japonesa","",""],
-      ],
-    };
-
-    return dataOptions[selectedOption].map((row, rowIndex) => (
-      <tr key={rowIndex}>
-        {row.map((cell, cellIndex) => (
-          <td key={cellIndex}>{cell}</td>
-        ))}
-      </tr>
-    ));
   };
 
   return (
@@ -46,7 +19,7 @@ const AppAluno = () => {
       <button onClick={() => handleOptionChange(3)}>6 disciplinas</button>
 
       <table border="1">
-        <tbody>{renderTableData()}</tbody>
+        <tbody><TableData selectedOption = {selectedOption} endpoint = '/turnosAlunos' > </TableData></tbody>
       </table>
     </div>
   );

@@ -14,7 +14,7 @@ export default function TableData(props) {
     //Warning: Can't perform a React state update on a component that hasn't mounted yet. 
     //This indicates that you have a side-effect in your render function that asynchronously later calls tries to update the component. Move this work to useEffect instead.
     useEffect(() => {
-        axiosInstance.get('/turnos').then(
+        axiosInstance.get(props.endpoint).then(
             (res) => {
                 setDataOptions(res.data);
                 setCarregando(false);
