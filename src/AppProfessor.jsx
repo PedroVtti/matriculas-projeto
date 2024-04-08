@@ -25,7 +25,6 @@ const AppProfessor = () => {
         ["Tarde", "", "Churrasco I","","",""],
       ],
     };
-
     return dataOptions[selectedOption].map((row, rowIndex) => (
       <tr key={rowIndex}>
         {row.map((cell, cellIndex) => (
