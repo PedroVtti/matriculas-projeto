@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const App = () => {
+const AppProfessor = () => {
   const [selectedOption, setSelectedOption] = useState(1);
 
   const handleOptionChange = (option) => {
@@ -50,4 +50,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default AppProfessor;
