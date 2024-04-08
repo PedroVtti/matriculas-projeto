@@ -13,8 +13,6 @@ app.get('/turnosProfessores', function (req, res) {
 
     fs.readFile(__dirname + "/db/turnosProfessores.json", function (err, data) {
       let turnosJSON = JSON.parse(data);
-      console.log(turnosJSON)
-       res.send(turnosJSON);
     });
     
  });
@@ -24,8 +22,6 @@ app.get('/turnosProfessores', function (req, res) {
 
   fs.readFile(__dirname + "/db/turnosAlunos.json", function (err, data) {
     let turnosJSON = JSON.parse(data);
-    console.log(turnosJSON)
-     res.send(turnosJSON);
   });
   
 });
