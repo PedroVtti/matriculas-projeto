@@ -11,6 +11,8 @@ app.get('/', (req, res) => {
 })
 
 app.get('/turnos', function (req, res) {
+    console.log("Turnos requested");
+    res.header("Access-Control-Allow-Origin", "*");
     let filePath = __dirname + '/db/turnosProfessores.json';
     // let turnosJSON = JSON.parse(filePath);
     // console.log(turnosJSON);
