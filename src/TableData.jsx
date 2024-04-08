@@ -19,7 +19,7 @@ export default function TableData(props) {
                 setDataOptions(res.data);
                 setCarregando(false);
             });
-    }, [props.selectedOption]);
+    }, [props.endpoint]);
     if (carregando) return <div>Carregando...</div>
     return dataOptions[props.selectedOption].map((row, rowIndex) => (
         <tr key={rowIndex}>
