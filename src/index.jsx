@@ -40,7 +40,7 @@ const App = () => {
       <h1>Portal do Aluno</h1>
       <h2>Tabela de Horários:</h2>
       <h3>Curso de Gastronomia intensivo</h3>
-      <P>Escolha a sua opção de matrícula:</P>
+      <p>Escolha a sua opção de matrícula:</p>
       <button onClick={() => handleOptionChange(1)}>2 disciplinas</button>
       <button onClick={() => handleOptionChange(2)}>4 disciplinas</button>
       <button onClick={() => handleOptionChange(3)}>6 disciplinas</button>
