@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Cor de fundo pastel */
+  }
+  
+  h1, h2 {
+    color: #4d4d4d; /* Cor do texto mais escuro */
+  }
+  
+  button {
+    background-color: #b3e0ff; /* Azul pastel */
+    color: #4d4d4d; /* Cor do texto mais escuro */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #99ccff; /* Azul pastel mais claro */
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #e6e6e6; /* Cor da borda mais clara */
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #ffb3b3; /* Rosa pastel */
+    color: #4d4d4d; /* Cor do texto mais escuro */
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cor de fundo alternada para linhas pares */
+  }
+  
+  tbody tr:hover {
+    background-color: #e6e6e6; /* Cor de fundo mais clara ao passar o mouse */
+  }
