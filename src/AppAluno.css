@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Cor de fundo pastel */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Cor de fundo da área principal */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  }
+  
+  h1 {
+    color: #333333; /* Cor de texto escura */
+  }
+  
+  h2 {
+    color: #666666; /* Cor de texto mais escura */
+  }
+  
+  h3 {
+    color: #888888; /* Cor de texto escura */
+  }
+  
+  p {
+    color: #444444; /* Cor de texto mais escura */
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #cccccc; /* Cor de botão pastel */
+    color: #333333; /* Cor de texto escura */
+  }
+  
+  button:hover {
+    background-color: #dddddd; /* Cor de botão pastel mais clara ao passar o mouse */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd; /* Linhas divisórias pastel */
+  }
+  
+  th {
+    background-color: #eeeeee; /* Cor de fundo pastel para cabeçalho de tabela */
+  }
