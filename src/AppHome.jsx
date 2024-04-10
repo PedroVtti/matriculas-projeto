@@ -7,14 +7,13 @@ function AppHome() {
         <div>
             <h1>PORTAL DE MATRÍCULAS</h1>
             <div class="links">
-                <span>
-                    <Link className="link"
-                        role="button" to="/aluno">Matrícula Aluno  </Link>
-                </span>
-                <span>
-                    <Link className="link"
-                        role="button" to="/professor">Matrícula Professor </Link>
-                </span>
+
+                <Link className="link"
+                    role="button" to="/aluno">Matrícula Aluno</Link>
+
+                <Link className="link"
+                    role="button" to="/professor">Matrícula Professor</Link>
+
             </div>
         </div>
     );
