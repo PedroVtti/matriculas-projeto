@@ -1,1 +1,80 @@
-{"1":[["Turno","Segunda-feira","Terça-feira","Quarta-feira","Quinta-feira","Sexta-feira"],["Manhã","C. Japonesa","","","",""],["Tarde","","","C. Japonesa","",""]],"2":[["Turno","Segunda-feira","Terça-feira","Quarta-feira","Quinta-feira","Sexta-feira"],["Manhã","","","Princípios da Culinária","",""],["Tarde","Princípios da Culinária","","","",""]],"3":[["Turno","Segunda-feira","Terça-feira","Quarta-feira","Quinta-feira","Sexta-feira"],["Manhã","","Churrasco I","","",""],["Tarde","","Churrasco I","","",""]]}
+{
+    "1": [
+        [
+            "Turno",
+            "Segunda-feira",
+            "Terça-feira",
+            "Quarta-feira",
+            "Quinta-feira",
+            "Sexta-feira"
+        ],
+        [
+            "Manhã",
+            "C. Japonesa",
+            "",
+            "",
+            "",
+            ""
+        ],
+        [
+            "Tarde",
+            "",
+            "",
+            "C. Japonesa",
+            "",
+            ""
+        ]
+    ],
+    "2": [
+        [
+            "Turno",
+            "Segunda-feira",
+            "Terça-feira",
+            "Quarta-feira",
+            "Quinta-feira",
+            "Sexta-feira"
+        ],
+        [
+            "Manhã",
+            "",
+            "",
+            "Princípios da Culinária",
+            "",
+            ""
+        ],
+        [
+            "Tarde",
+            "Princípios da Culinária",
+            "",
+            "",
+            "",
+            ""
+        ]
+    ],
+    "3": [
+        [
+            "Turno",
+            "Segunda-feira",
+            "Terça-feira",
+            "Quarta-feira",
+            "Quinta-feira",
+            "Sexta-feira"
+        ],
+        [
+            "Manhã",
+            "",
+            "Churrasco I",
+            "",
+            "",
+            ""
+        ],
+        [
+            "Tarde",
+            "",
+            "Churrasco I",
+            "",
+            "",
+            ""
+        ]
+    ]
+}

@@ -3,9 +3,6 @@ const app = express()
 const port = 3000
 var path = require("path");
 var fs = require("fs");
-app.get('/', (req, res) => {
-  res.send("Nada nesse endpoint. Tente /turnos!")
-})
 
 app.get('/turnosProfessores', function (req, res) {
   console.log("TurnosProfs foram pedidos");

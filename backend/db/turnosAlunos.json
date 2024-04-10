@@ -1,1 +1,80 @@
-{"1":[["Turno","Segunda-feira","Terça-feira","Quarta-feira","Quinta-feira","Sexta-feira"],["Manhã","C. Japonesa","Princípios da Culinária","","",""],["Tarde","","","","",""]],"2":[["Turno","Segunda-feira","Terça-feira","Quarta-feira","Quinta-feira","Sexta-feira"],["Manhã","C. Japonesa","Churrasco I","Princípios da Culinária","",""],["Tarde","Princípios da Culinária","","","",""]],"3":[["Turno","Segunda-feira","Terça-feira","Quarta-feira","Quinta-feira","Sexta-feira"],["Manhã","C. Japonesa","Churrasco I","Princípios da Culinária","",""],["Tarde","Princípios da Culinária","Churrasco I","C. Japonesa","",""]]}
+{
+    "1": [
+        [
+            "Turno",
+            "Segunda-feira",
+            "Terça-feira",
+            "Quarta-feira",
+            "Quinta-feira",
+            "Sexta-feira"
+        ],
+        [
+            "Manhã",
+            "C. Japonesa",
+            "Princípios da Culinária",
+            "",
+            "",
+            ""
+        ],
+        [
+            "Tarde",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    ],
+    "2": [
+        [
+            "Turno",
+            "Segunda-feira",
+            "Terça-feira",
+            "Quarta-feira",
+            "Quinta-feira",
+            "Sexta-feira"
+        ],
+        [
+            "Manhã",
+            "C. Japonesa",
+            "Churrasco I",
+            "Princípios da Culinária",
+            "",
+            ""
+        ],
+        [
+            "Tarde",
+            "Princípios da Culinária",
+            "",
+            "",
+            "",
+            ""
+        ]
+    ],
+    "3": [
+        [
+            "Turno",
+            "Segunda-feira",
+            "Terça-feira",
+            "Quarta-feira",
+            "Quinta-feira",
+            "Sexta-feira"
+        ],
+        [
+            "Manhã",
+            "C. Japonesa",
+            "Churrasco I",
+            "Princípios da Culinária",
+            "",
+            ""
+        ],
+        [
+            "Tarde",
+            "Princípios da Culinária",
+            "Churrasco I",
+            "C. Japonesa",
+            "",
+            ""
+        ]
+    ]
+}
