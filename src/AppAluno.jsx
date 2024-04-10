@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import TableData from "./TableData.jsx";
+import './AppAluno.css';
 
 const AppAluno = () => {
   const [selectedOption, setSelectedOption] = useState(1);

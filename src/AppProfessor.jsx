@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import TableData from "./TableData.jsx";
-
+import './AppProfessor.css';
 const AppProfessor = () => {
   const [selectedOption, setSelectedOption] = useState(1);
   const handleOptionChange = (option) => {
